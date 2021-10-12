@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+  color: #b8b7d1;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 200px;
+  background: #23273a;
+  font-size: 1rem;
+  font-family: Assistant,sans-serif;
+}
+.grid {
+  border: 1px solid;
+  height: 120px;
+  width: 140px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid div {
+  height: 20px;
+  width: 20px;
+}
+
+.player-one {
+  background-color: red;
+  border-radius: 10px;
+}
+
+.player-two {
+  background-color: blue;
+  border-radius: 10px;
+}
